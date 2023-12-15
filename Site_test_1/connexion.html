@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'authentification</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <script type="text/javascript" src="JS/script.js"></script>
+</head>
+<body id="body-login">
+
+    <header>
+        <nav class="bar-navigation">
+            <a href="Media/logo_b.jpg" class="lien_logo" target="_blank"><img src="Media/logo_b.jpg" class="mon_logo"></a>
+            <ul class="nav-grp-li">
+                <a href="#"><li id="principale" class="nav-liste"> Accueil </li></a>
+                <a href="#"><li class="nav-liste"> Service </li></a>
+                <a href="#"><li class="nav-liste"> à Propos </li></a>
+                <a href="#"><li class="nav-liste"> Confidentialité </li></a>
+                <li class="nav-liste" id="deroule-nav"><a href="#" class="dd"> Gestion du compte </a>
+                    <ul class="nav-sous_grp">
+                        <a href="connexion.html"><li class="nav-sous_liste"> Connexion </li></a>
+                        <a href="#"><li class="nav-sous_liste"> Déconnexion </li></a>
+                    </ul>
+                </li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <div class="content1">
+            <div class="mes-welcome">
+                <h1 class="welcome">BIENVENU !! <br> Sur le site officiel de l'IDRP</h1>
+                
+                <marquee class="mov-sigl" behavior="" scrollamount="5" scrolldelay="1">
+                    <h2><span class="def-sigle">I</span>ndustrie de <span class="def-sigle">D</span>éveloppement <span class="def-sigle">R</span>éseau & <span class="def-sigle">P</span>rogramation</h2> 
+                </marquee>
+
+                <p class="paragraphe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione cupiditate fuga, quas distinctio optio consectetur reprehenderit autem consequuntur repudiandae voluptatum quidem error doloremque iure hic consequatur suscipit placeat excepturi libero!</p>
+            </div>
+            
+        </div>
+
+        <div class="content2">
+            <div class="form-grp">
+                <div id="zoneConect1">
+                    <form action="">
+                        <h1 class="titl-form">Connection</h1>
+                        <div class="input-box">
+                            <label class="label-conect">Addresse Email</label><br>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email"/>
+                        </div>                
+                        <div class="input-box">
+                            <label class="label-conect">Mots de passe</label>
+                            <input type="password" id="password" name="password" class="form-control" placeholder="Enter your Password"/>  
+                        </div>
+                        <div class="log-button">
+                            <button class="save-button" id="save-button">S'inscrire</button>
+                            <button class="login-button" id="login-button">Connexion</button>
+                        </div>
+                    </form>
+                </div>
+
+
+                <div id="zoneConect2">
+                    <form action="">
+                        <h1 class="titl-form">inscription</h1>
+                        <div class="input-box">
+                            <label class="label-conect">Nom</label><br>
+                            <input type="text" id="mom" name="nom" class="form-control" placeholder="Entrer votre nom"/>
+                        </div>                
+                        <div class="input-box">
+                            <label class="label-conect">Prenom</label><br>
+                            <input type="text" id="prenom" name="prenom" class="form-control" placeholder="Entrer votre prenom"/>
+                        </div>               
+                        <div class="input-box">
+                            <label class="label-conect">Addresse Email</label><br>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email"/>
+                        </div>                
+                        <div class="input-box">
+                            <label class="label-conect">Mots de passe</label>
+                            <input type="password" id="password" name="password" class="form-control" placeholder="Enter your Password"/>  
+                        </div>
+                        <div class="input-box">
+                            <label class="label-conect">Confirmer le Mots de passe</label>
+                            <input type="password" id="password" name="password" class="form-control" placeholder="Enter your Password"/>  
+                        </div>
+                        <div class="log-button">
+                            <button class="conect-button" id="conect-button">J'ai un compte</button>
+                            <button class="register-button" id="register-button">Enregistrer</button>
+                        </div>
+                    </form>
+                    <!-- <h4 class="sous-titl-form">Je dispose d'un compte, <a href="#">connexion</a></h4> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+    </footer>
+</body>
+</html>

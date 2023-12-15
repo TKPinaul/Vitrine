@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15;
+}
+
+/* ----- ----- Page connexion.html ----- ----- */
+#body-login {
+    background: url('/Media/fond_00.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
+    top: 0;
+    bottom: 0;
+}
+
+/* ++++++++++ NAVBAR ++++++++++ */
+#body-login header {
+    background-color: rgb(32, 32, 32);
+}
+
+#body-login .bar-navigation {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+
+#body-login .lien_logo {
+    margin-right: auto;
+}
+
+#body-login .mon_logo {
+    display: flex;
+    justify-content: flex-start;
+    height: 45px;
+    width: 200px;
+    margin-right: auto;
+}
+
+#body-login .nav-grp-li {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+#body-login .nav-liste {
+    letter-spacing: 2px;
+    padding: 15px;
+    position: relative;
+}
+#body-login .nav-liste:hover {
+    background-color: black;
+}
+
+#body-login .nav-sous_grp {
+    display: none;
+    list-style: none;
+    position:absolute;
+    top: 100%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(31, 30, 30);
+}
+
+#body-login .nav-sous_liste {
+    display: block;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+#body-login .nav-sous_liste:hover {
+    background-color: black;
+}
+
+#deroule-nav .dd{
+    color: rgb(255, 123, 0);
+    font-weight: bold;
+}
+
+#body-login .bar-navigation a li{
+    color: white;
+}
+#body-login .bar-navigation a li:hover {
+    /* font-weight: bold; */
+    color: rgb(255, 94, 0);
+}
+
+
+
+/* ++++++++++ CORPS ++++++++++ */
+#body-login .main-content {
+    height: 100%;
+    display: flex;
+}
+
+#body-login .content1 {
+    /* flex: 1; */
+    width: 60%;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#body-login .mes-welcome {
+    align-items: center;
+    text-align: center;
+}
+#body-login .welcome {
+    color: rgb(245, 214, 112);
+}
+#body-login .def-sigle {
+    color: rgb(248, 197, 31);
+}
+#body-login .mov-sigl {
+    font-size: 17px;
+    width: 100%;
+}
+#body-login .paragraphe {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+#body-login .content2 {
+    flex: 1;
+    height: 94vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-grp {
+    display: flex;
+    /* position: relative; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* vertical-align: middle; */
+}
+
+#zoneConect1,
+#zoneConect2 {
+    border: 1px solid #363535;
+    box-shadow: 30 0 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(13px);
+    border-radius: 20px;
+    width: 80%;
+    padding: 25px;
+    display: none;
+    overflow: hidden;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+#zoneConect1 {
+    display: flex;
+}
+
+.titl-form,
+.sous-titl-form{
+    text-align: center;
+}
+
+.input-box {
+    padding-top: 25px;
+    padding-left: 18px;
+    margin-bottom: 15px;
+}
+
+/*.label-conect {
+    text-align: left;
+}*/
+
+.form-control {
+    width: 90%;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: chocolate;
+    border: 1px solid #353030;
+    background-color: #050505;
+    outline: none;
+}
+
+.log-button {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    
+}
+
+#login-button,
+#save-button,
+#register-button,
+#conect-button {
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ff7300c9;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 5px;
+    cursor: pointer;
+    width: 45%;
+}
+#save-button {
+    background-color: rgb(43, 92, 69);
+}
+#conect-button {
+    background-color: #ce6635;
+}
+#register-button {
+    background-color: rgb(19, 68, 45);
+}
+/*  */
